@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+      .jumbotron {
+        padding-top: 2rem;
+        background-color: lavenderblush;
+      }
+      body {
+        min-height: 220px;
+      }
+
+      #projects{
+        background-color: lavenderblush;
+      }
+      
+      .jumbotron img {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Yulia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <div class="container">
+        <img src="img/yulia.jpg" alt="profile" width="200" />
+        <h1 class="display-4 mt-3">Yulia Nehua</h1>
+        <p class="lead">Product Sampling / Data Entry | Aspiring Web Developer</p>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#e7008a" fill-opacity="0.22" d="M0,96L40,128C80,160,160,224,240,218.7C320,213,400,139,480,128C560,117,640,171,720,213.3C800,256,880,288,960,288C1040,288,1120,256,1200,224C1280,192,1360,160,1400,144L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+     <!-- About -->
+     <Section id="About">
+      <div class="contaner">
+        <div class="row text-center">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col -md-8">
+            <p> I am an active student of the Information Systems Study Program at Pamulang University in Serang, with a strong interest in technology development, data, and digital systems. Since the beginning of my studies, I have been enthusiastic about learning how information technology can be applied to improve efficiency and drive innovation in various fields, especially in the education and business sectors. I believe that the proper use of technology can be a key factor in creating positive change and providing solutions to the various challenges in today's digital era.</p>
+          </div>
+        </div>
+
+      </div>
+
+     </Section>
+     <!-- Akhir About-->
+
+     <!-- Projects -->
+     <section id="projects">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-3">
+          <div class="col">
+            <h2>Project</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/website sederhana.jpg" class="card-img-top img-fluid" alt="project1" style="max-height: 250px; object-fit: contain;">
+              <div class="card-body">
+                <p class="card-text">Membuat website prodil sederhana menggunakan HTML dan CSS.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/rekam medis.jpg" class="card-img-top img-fluid" alt="project2" style="max-height: 200px; object-fit: contain;">
+              <div class="card-body">
+                <p class="card-text">Membangun Aplikasi Web Klinik sederhana untuk mencatat data pasien dan transaksi medis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/formulir pendaftaran.jpg" class="card-img-top img-fluid" alt="project3" style="max-height: 250px; object-fit: contain;">
+              <div class="card-body">
+                <p class="card-text">Membuat Formulir Pendaftaran Sederhana.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Akhir Project -->
+
+     <!-- contact-->
+     <section id="contact">
+      <div class="container">
+        <div class=" row text-center justify-content-center ">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="nama" class="form-control" id="Name" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email">
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- Akhir contact-->
+
+     
+       <!-- Navbar -->
+       <nav class="navbar navbar-expand-lg navbar-dark bg-primary"></nav>
+       <div class="container">
+         <a class="navbar-brand" href="#"></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ms-auto">
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="#">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#about">About</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#project">Projects</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#contacts">Contact</a>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+       <!--  Akhir Navbar -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
